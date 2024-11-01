@@ -1,13 +1,13 @@
-package com.booknook.book_Nook;
+package com.catalogo.catalogo_Service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookNookApplication {
+public class CatalogoServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookNookApplication.class, args);
+		SpringApplication.run(CatalogoServiceApplication.class, args);
 	}
 
 }

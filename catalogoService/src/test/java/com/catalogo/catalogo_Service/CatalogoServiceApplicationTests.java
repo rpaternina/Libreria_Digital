@@ -1,10 +1,10 @@
-package com.booknook.book_Nook;
+package com.catalogo.catalogo_Service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookNookApplicationTests {
+class CatalogoServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,0 +1,15 @@
+services:
+  ### BASE DE DATOS DE CATALOGOS POSTGRESQL
+  db-catalogo:
+    container_name: db-catalogo
+    image: postgres:15.2
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: libros
+      POSTGRES_USER: rpaternina
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+    command: -p 5432
