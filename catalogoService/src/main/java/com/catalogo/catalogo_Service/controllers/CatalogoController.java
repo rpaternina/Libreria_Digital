@@ -19,11 +19,12 @@ public class CatalogoController {
     @Autowired
     private final CatalogoService catalogoService;
 
+    /*
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Libro postLibro(@RequestBody Libro libro){
         return catalogoService.postLibro(libro);
-    }
+    }*/
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
@@ -42,7 +43,6 @@ public class CatalogoController {
     public List<Libro> getByNombre(@PathVariable String nombre){
         return catalogoService.getByNombre(nombre);
     }
-
 
     @GetMapping("/genero/{genero}")
     @ResponseStatus(HttpStatus.OK)
